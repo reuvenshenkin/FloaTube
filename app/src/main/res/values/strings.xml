@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FloaTube</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_player">player</string>
+    <string name="search">Search</string>
+    <string name="failed">Failed to initialize Youtube Player</string>
+    <string name="standAlonePlayer">com.google.android.youtube.api.StandalonePlayerActivity</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+
+
+</resources>

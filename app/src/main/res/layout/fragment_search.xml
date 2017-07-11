@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="0">
+
+        <AutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textAutoComplete"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:hint="search"
+            android:imeOptions="actionDone"
+            android:textColorHint="#000000"
+            android:completionThreshold="1"
+            android:id="@+id/search_input"
+            android:backgroundTint="#ffffff"
+            android:background="#ffffff"
+            android:layout_marginBottom="2sp"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/search_button"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/abc_ic_search_api_mtrl_alpha"
+            android:backgroundTint="#ffffff"
+            android:layout_marginRight="2sp"
+            android:layout_marginLeft="2sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="history"
+            android:id="@+id/search_history_button"
+            android:background="#000000"
+            android:singleLine="false"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="clear"
+            android:id="@+id/clear_button"
+            android:background="#ff000000"
+            android:textColor="#ffff1a30"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/list_fragment_container"></FrameLayout>
+
+</LinearLayout>
